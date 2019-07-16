@@ -1,0 +1,258 @@
+/*global*/
+body {
+  background: rgba(233, 233, 233, .8);
+  font-family: 'Aclonica';
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*navbar section*/
+/**********************/
+nav {
+  min-height: 100px;
+  box-shadow: 2px 5px 10px #becfd9;
+  overflow: hidden;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.navbar {
+  
+}
+.navbar-brand {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2.9vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  display: inline-block;
+  padding: 30px 10px;
+  color: white;
+  text-shadow: 4px -1px 15px #000000;
+}
+
+.navbar-nav {
+  float: right;
+  padding: 27px 0;
+}
+.navbar-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.navbar-nav ul li {
+  display: block;
+  float: left;
+}
+.navbar-nav ul li a {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #079ec4;
+  display: block;
+  text-decoration: none;
+  float: left;
+  padding: 7px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+  margin: 4px;
+  transition: all .3s;
+}
+.navbar-nav ul li a:hover {
+  text-shadow: none;
+  transform: scale(1.01, 1.01);
+  box-shadow: none;
+}
+
+
+
+
+
+#layout1 {
+  background: rgba( 124, 223, 227, 0.656 );
+  padding: 20px;
+}
+#layout1 h2 {
+  text-align: center;
+}
+
+.header {
+  border: 2px solid purple;
+  margin: 2px;
+  background: #fff;
+}
+.nav {
+  border: 2px solid purple;
+  margin: 2px;
+  background: #fff;
+}
+.main {
+  overflow: hidden;
+}
+
+.main_left_wrapper {
+  margin: 2px;
+  width: 70%;
+  float: left;
+}
+
+.section, .article {
+  border: 2px solid purple;
+  margin: 2px;
+  background: #fff;
+}
+
+.aside {
+  border: 2px solid purple;
+  margin: 2px;
+  width: 25%;
+  float: right;
+  min-height: 143px;
+  background: #fff;
+}
+
+.footer {
+  border: 2px solid purple;
+  margin: 2px;
+  background: #fff;
+}              /*layout 1 bordered complete*/
+
+
+
+#layout1borderless {
+  background: rgba( 124, 223, 227, 0.656 );
+  padding: 20px;
+}
+#layout1borderless h2 {
+  text-align: center;
+}
+
+.header-b-less {
+/*  border: 2px solid purple;*/
+  margin: 2px;
+  background: #fff;
+}
+.nav-b-less {
+/*  border: 2px solid purple;*/
+  margin: 2px;
+  background: #fff;
+}
+.main {
+  overflow: hidden;
+}
+
+.main_left_wrapper {
+  margin: 2px;
+  width: 70%;
+  float: left;
+}
+
+.section-b-less, .article-b-less {
+/*  border: 2px solid purple;*/
+  margin: 2px;
+  background: #fff;
+}
+
+.aside-b-less {
+/*  border: 2px solid purple;*/
+  margin: 2px;
+  width: 25%;
+  float: right;
+  min-height: 143px;
+  background: #fff;
+}
+
+.footer-b-less {
+/*  border: 2px solid purple;*/
+  margin: 2px;
+  background: #fff;
+}                    /*layout 1 border less*/
+
+
+/*second layout*/
+#layout2 {
+  background: rgba( 124, 139, 227, 0.376 );
+  padding: 20px;
+}
+#layout2 h3 {
+  text-align: center;
+}
+.header2 {
+  border: 2px solid purple;
+  overflow: hidden;
+}
+.header-logo {
+  width: 20%;
+  float: left;
+  border-right: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.header-banner {
+  width: 75%;
+  float: right;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.header-bar {
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.main2 {
+  margin: 20px 0;
+  overflow: hidden;
+}
+.left-block {
+  width: 25%;
+  min-height: 231px;
+  float: left;
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.main-block {
+  width: 48%;
+  float: left;
+}
+.main-top-block {
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.main-middle-block {
+  overflow: hidden;
+}
+.main-middle-left-block {
+  width: 47.9%;
+  min-height: 104px;
+  float: left;
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.main-middle-right-block {
+  width: 47.9%;
+  min-height: 104px;
+  float: right;
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.main-bottom-block {
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.right-block {
+  width: 25%;
+  min-height: 231px;
+  float: right;
+  border: 2px solid purple;
+  background: rgba( 255, 255, 255, 0.376 );
+}
+.footer2 {
+  border: 2px solid purple;
+  margin: 20px 0;
+  background: rgba( 255, 255, 255, 0.376 );
+} /* Second layout with bordered*/
+
+
+
